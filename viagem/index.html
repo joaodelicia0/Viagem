@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens</title>
+    <script src="button.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Descubra o Mundo Com o Pé na Estrada</h1>
+        <br>
+        <p>O nosso site de viagens foi criado para ajudar você a explorar novos destinos com facilidade. Oferecemos uma ampla seleção de pacotes turísticos, voos, hotéis e atividades para tornar sua experiência única e inesquecível. Se você está planejando sua próxima aventura, seja uma viagem relaxante para a praia ou uma exploração nas montanhas, temos tudo o que você precisa para planejar sua viagem dos sonhos. Navegue, descubra e faça suas reservas com segurança e praticidade!
+        </p>
+    </header>
+    <main>
+        <fieldset>
+            <section>
+                <H2>Faça seu login abaixo!</H2>
+            </section>
+            <form  onsubmit="redirecionar(event)">
+                <section>
+                    <h3>Digite seu nome</h3>
+                <input type="text" id="p1" name="nome" autocomplete="off" placeholder="Digite seu nome ex:João" required>
+                </section>
+            
+                <section>
+                    <h3>Digite seu email</h3>
+                        <input
+                            type="email"
+                            id="p2"
+                            name="email" 
+                            autocomplete="off" 
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{3,}"
+                            placeholder="Digite seu email ex:joao@gmail.com"
+                            required>
+                </section>
+            
+                <section>  
+                    <h3>Senha</h3>
+                        <input type="password" name="senha" id="p3" minlength="4" maxlength="6" placeholder="Digite entre 4 e 6 caracteres" required >  
+                </section>
+
+                <section>
+                    <button onsubmit="redirecionar()">Registrar!</button>
+                </section>
+            </form>
+          
+         </fieldset>
+        
+    </main>
+    <footer></footer>
+ 
+</body>
+</html>

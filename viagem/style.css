@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding-inline-end: 0;
+    box-sizing: content-box;
+   
+}
+
+body{
+   
+   font-family: "Cabin", serif;
+   font-weight: 400;
+}
+header{
+    padding: 1rem;
+    background-image: url(aviao2.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: 50% 50%;
+    h1 {
+        color: black;
+        text-align: center;
+
+    }
+    p{
+        color: black;
+        font-size: large;
+        text-align: start;
+    }
+  
+}
+
+main{
+    padding: 6rem;
+    text-align: center;
+    background-color: darkblue;
+}
+
+fieldset{
+    padding: 5rem;
+    border: 3px solid black;
+   
+}
+
+h3{
+    justify-content: flex-start;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 0.5;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
